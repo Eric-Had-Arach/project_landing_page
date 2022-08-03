@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <div class="barra_navegacion">
-        <div class="izquierda">Header Logo</div>
-        <div class="derecha">
-            <ul>
+        <div class="logo_barra_navegacion">Header Logo</div>
+        <div>
+            <ul class="links_barra_navegacion">
                 <li>link 1</li>
                 <li>link 2</li>
                 <li>link 3</li> 
@@ -22,31 +21,33 @@
         </div>
     </div>
     <div class="cabecera">
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-        <button class="sign_up">Sign up</button>
-        <div>
+        <div class="izquierda">
+            <h1 class="titulo_principal">This website is awesome</h1>
+            <p class="texto_cabecera">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+            <button class="boton_sign_up_cabecera">Sign up</button>
+        </div>
+        <div class="derecha">
             <img src="images/negro.png" alt="Imágen negra">
         </div>          
     </div>
     <div class="cuerpo">
-        <h2>Some random information</h2>
+        <h2 class="informacion_cuerpo">Some random information</h2>
         <div class="tarjetas">
             <div class="mini_seccion_1">
                 <img src="images/azul.png" alt="imagen">
-                <p>this is some subtext under an ilustration or image</p>
+                <p class="texto_tarjetas">this is some subtext under an ilustration or image</p>
             </div>
             <div class="mini_seccion_2">
                 <img src="images/amarillo.png" alt="imagen">
-                <p>this is some subtext under an ilustration or image</p>
+                <p class="texto_tarjetas">this is some subtext under an ilustration or image</p>
             </div>
             <div class="mini_seccion_3">
                 <img src="images/verde.png" alt="imagen">
-                <p>this is some subtext under an ilustration or image</p>
+                <p class="texto_tarjetas">this is some subtext under an ilustration or image</p>
             </div>
             <div class="mini_seccion_4">
                 <img src="images/rojo.png" alt="imagen">
-                <p>this is some subtext under an ilustration or image</p>
+                <p class="texto_tarjetas">this is some subtext under an ilustration or image</p>
             </div>
         </div>
     </div>
@@ -54,17 +55,15 @@
         <p class="parrafo_leyenda">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filing up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
         <p class="firma_leyenda">Thor, God of Thunder</p>
     </div>
-    <div class="llamada_a_la_accion">
-        <div class="descripcion">
-            <p>Call to action! It's time!</p>
+    <div class="llamada_a_la_accion">  
+        <div class="texto_descripcion">
+            <p><strong>Call to action! It's time!</p></strong></p>
             <p>Sign up for our product by clicking that button rigth over there!</p>
         </div>
-        <button>Sign up</button>
+        <button class="boton_sign_up_leyenda">Sign up</button>
     </div>
     <div class="pie_pagina">
         <p>Copyright @ Todos los derechos reservados.</p>
-    </div>
-
-    
+    </div> 
 </body>
 </html>

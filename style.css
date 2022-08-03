@@ -1,0 +1,151 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.barra_navegacion {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+}
+
+.logo_barra_navegacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links_barra_navegacion {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera {
+    display: flex;
+    padding: 30px 200px;
+    gap: 100px;
+    align-items: center;
+    background-color: #1F2937;
+    flex-shrink: 1;
+}
+
+.cabecera .izquierda {
+    display: flex;
+    flex-direction: column;
+}
+
+.izquierda h1 {
+    margin-bottom: 5px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    color: #F9FAF8;
+    border-radius: 50px;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 200px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.texto_tarjetas {
+    text-align: center;
+}
+
+
+
+.titulo_principal {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.texto_cabecera,
+.links_barra_navegacion {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo_barra_navegacion {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.boton_sign_up_cabecera,
+.boton_sign_up_leyenda {
+    background-color: #3882F6;
+}
+
+.informacion_cuerpo {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.leyenda {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    padding: 30px 200px;
+    margin-bottom: 50px;
+}
+
+.firma_leyenda {
+    text-align: end;
+    font-weight: bolder;
+}
+
+.pie_pagina {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.llamada_a_la_accion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #3882F6;
+    padding: 10px 200px;
+    gap: 30px;
+}
+
+.texto_descripcion {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto_descripcion p {
+    margin: 3px;
+}
+
